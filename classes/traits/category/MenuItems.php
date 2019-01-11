@@ -216,6 +216,7 @@ trait MenuItems
                 if ($item['items']) {
                     $item['items'] = $iterator($item['items'], $url);
                 }
+                return $item;
             }
         };
 
